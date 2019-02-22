@@ -45,8 +45,8 @@ class WebNavSetAdmin(object):
 
 
 class WebSubNavSetAdmin(object):
-    list_display = ['nav_name', 'nav_url', 'nav_sort', 'nav_up', 'get_up', 'get_down']
-    search_fields = list_filter = list_editable = ['nav_name', 'nav_url', 'nav_sort', 'nav_up']
+    list_display = ['nav_name', 'nav_url', 'nav_up']
+    search_fields = list_filter = list_editable = ['nav_name', 'nav_url', 'nav_up']
     relfield_style = 'fk-ajax'
     refresh_tiems = [3, 5]
 

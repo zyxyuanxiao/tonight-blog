@@ -65,18 +65,16 @@ class WebNavSet(models.Model):
         verbose_name_plural = verbose_name
 
     def get_up(self):
-        self.nav_sort += 1
-        self.save()
         from django.utils.safestring import mark_safe
-        return mark_safe("<a href='#'>左调</a>")
-    get_up.short_description = '左调'
+        text = "<a href=\"javascript:;\" id=\"getup" + str(self.pk) + "\">上调</a><script>$('#getup" + str(self.pk) + "').click(function(){ $.ajax({url : '/GetSoreUpView/WebNavSet/" + str(self.pk) + "/True/', headers: {'X-CSRFToken': $('input[name=csrfmiddlewaretoken]').val()}, type: 'PATCH', data: '', dataType: false, processData: false, success: function(data){ location.reload(); }})});</script>"
+        return mark_safe(text)
+    get_up.short_description = '上调'
 
     def get_down(self):
-        self.nav_sort -= 1
-        self.save()
         from django.utils.safestring import mark_safe
-        return mark_safe("<a href='#'>右调</a>")
-    get_down.short_description = '右调'
+        text = "<a href=\"javascript:;\" id=\"getdown" + str(self.pk) + "\">下调</a><script>$('#getdown" + str(self.pk) + "').click(function(){ $.ajax({url : '/GetSoreUpView/WebNavSet/" + str(self.pk) + "/False/', headers: {'X-CSRFToken': $('input[name=csrfmiddlewaretoken]').val()}, type: 'PATCH', data: '', dataType: false, processData: false, success: function(data){ location.reload(); }})});</script>"
+        return mark_safe(text)
+    get_down.short_description = '下调'
 
     def __str__(self):
         return self.nav_name
@@ -92,25 +90,10 @@ class WebSubNavSet(models.Model):
                                           verbose_name=u"绑定文章类型作为URL（绑定后标签和URL字段无效）", null=True, blank=True)
     nav_up = models.ForeignKey(WebNavSet, on_delete=models.CASCADE, null=True, blank=True,
                                related_name='MainCoreApps_WebSubNavSet_related', verbose_name=u'父级导航')
-    nav_sort = models.IntegerField(default=1, verbose_name=u"排序(数字越小越上)")
 
     class Meta:
         verbose_name = u"博客子导航栏设置"
         verbose_name_plural = verbose_name
-
-    def get_up(self):
-        self.nav_sort += 1
-        self.save()
-        from django.utils.safestring import mark_safe
-        return mark_safe("<a href='#'>上调</a>")
-    get_up.short_description = '上调'
-
-    def get_down(self):
-        self.nav_sort -= 1
-        self.save()
-        from django.utils.safestring import mark_safe
-        return mark_safe("<a href='#'>下调</a>")
-    get_down.short_description = '下调'
 
     def __str__(self):
         return self.nav_name

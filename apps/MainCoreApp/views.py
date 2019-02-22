@@ -11,7 +11,7 @@ class IndexView(View):
     def get(self, request):
         title = '博客首页'
         user = models.WebOwner.objects.all()[0]
-        nav = models.WebNavSet.objects.all()[:7]
+        nav = models.WebNavSet.objects.all().order_by('nav_sort')[:7]
         article = models.ArticlesMake.objects.all()
         banner = article.filter(is_banner=True).order_by('-is_recommend', '-like_num',
                                                          '-read_num', '-article_make_time')[:4]
@@ -207,6 +207,21 @@ def ThumbUp(request):
                                             content_type='application/json', status=200)
                     response.set_cookie('0'+str(article.id), str(article.id), max_age=60*60*24)
                 return response
+
+
+class GetSoreUpView(View):
+    def patch(self, request, model_name, pk, is_up):
+        if request.is_ajax():
+            if is_up == 'True':
+                exec('tmp=models.' + model_name + '.objects.get(pk=' + str(pk) + ')')
+                exec('tmp.nav_sort += 1')
+                exec('tmp.save()')
+                return HttpResponse(json.dumps({'true': 'true'}), content_type='application/json', status=200)
+            else:
+                exec('tmp=models.' + model_name + '.objects.get(pk=' + str(pk) + ')')
+                exec('tmp.nav_sort -= 1')
+                exec('tmp.save()')
+                return HttpResponse(json.dumps({'false': 'false'}), content_type='application/json', status=200)
 
 
 def page404(request):
