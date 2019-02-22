@@ -5,7 +5,7 @@
 <div class="content_box whitebg">
   <h2 class="htitle"><span class="con_nav">您现在的位置是：<a href="/">网站首页</a>><a href="{% url 'blog:list' article.article_type.type_name %}">{{ article.article_type.type_name }}</a></span>{{ article.article_type.type_name }}</h2>
   <h1 class="con_tilte">{{ article.title }}</h1>
-  <p class="bloginfo"><i class="avatar"><img src="{{ MEDIA_URL }}{{ user.photo }}"></i><span>{{ user.name }}</span><span>{{ article.article_brief_time }}</span>{% if article.article_tags.all %}<span>【<a href="/list/{% for i in article.article_tags.all|slice:'1' %}{{ i.tag_name|urlencode }}{% endfor %}/">{% for i in article.article_tags.all|slice:'1' %} {{ i.tag_name }} {% endfor %}</a>】</span>{% endif %}<span>{{ article.read_num }}人已围观</span></p>
+  <p class="bloginfo"><i class="avatar"><img src="{{ MEDIA_URL }}{{ user.photo }}"></i><span>{{ user.name }}</span><span>{{ article.article_brief_time }}</span><span>【<a href="{% url 'blog:list' article.article_type.type_name|urlencode %}">{{ article.article_type.type_name }}</a>】</span><span>{{ article.read_num }}人已围观</span></p>
   <p class="con_info"><b>简介</b>{{ article.introduction }}</p>
   <div class="con_text">
     {% autoescape off %}
@@ -94,13 +94,15 @@
                     <p class="fbinfo">{{ item.com_content }}</p>
                 </ul>
             </div>
-            {% for i in item.MainCoreApp_Reply_related.all %}
-            <div class="hf">
-                <ul>
-                    <p class="zzhf"><span style='color:#FF0000;margin-right: 10px;'>站长回复:</span>{{ i.content }}</p>
-                </ul>
-            </div>
-            {% endfor %}
+              {% if item.MainCoreApp_Reply_related.all %}
+                {% for i in item.MainCoreApp_Reply_related.all %}
+                <div class="hf">
+                    <ul>
+                        <p class="zzhf"><span style='color:#FF0000;margin-right: 10px;'>站长回复:</span>{{ i.content }}</p>
+                    </ul>
+                </div>
+                {% endfor %}
+              {% endif %}
             {% endfor %}
         </div>
       </div>

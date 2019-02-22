@@ -36,6 +36,7 @@ class IndexView(View):
                 'tag': item,
                 'num': tmp
             })
+        article_tags = article_tags[:6]
         new_articles = article.order_by('-is_top', '-article_make_time')
         notice = article.filter(is_notice=True)[:4]
         read_list = article.order_by('-read_num')[:6]
