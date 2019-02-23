@@ -36,13 +36,25 @@ django2.1 + xadmin2.0 + 杨青个人博客模板 《今夕何夕》打造的一�
 
   - git用户
 
-  `git clone https://github.com/sshwsfc/xadmin.git`
+  `git clone -b django2 https://github.com/sshwsfc/xadmin.git`
 
   如果有ssh
 
-  `git clone git@github.com:sshwsfc/xadmin.git`
+  `git clone -b django2 git@github.com:sshwsfc/xadmin.git`
 
-  **克隆到本地之后需要打包成拉链**
+  **克隆到本地之后需要打包**
+
+  ```
+  zip -r xadmin.zip xadmin/*
+  ```
+
+  安装
+
+  ```
+  pip install xadmin.zip
+  ```
+
+  
 
   - 其他用户
 
