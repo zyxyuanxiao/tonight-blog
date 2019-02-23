@@ -99,7 +99,7 @@ python manage runserver 8080
 
 [服务器安装教程](https://github.com/jasonbanjui/tonight-blog/blob/master/OTHERREADME/SeverInstall.md)
 
-**如果有中间的疑问请话教育邮箱发送到794130574@qq.com**
+**如果有中间的疑问的话，将问题截图发送到邮箱 794130574@qq.com**
 
 # 开发者文档
 
