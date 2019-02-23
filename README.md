@@ -3,7 +3,7 @@ django2.1 + xadmin2.0 + 杨青个人博客模板 《今夕何夕》打造的一�
 
 ###### README（解释文件）、READMEIMAGES（解释文件中图片的位置）和 OTHERREADME（其他说明） 都不是这个项目的文件，不需要可以删除
 
-更新日记请点[这里](https://github.com/jasonbanjui/gentle-blog/OTHERREADME/UpdateFile.md)
+更新日记请点[这里](https://github.com/jasonbanjui/tonight-blog/blob/master/OTHERREADME/UpdateFile.md)
 
 # 开始
 
@@ -85,7 +85,7 @@ python manage runserver 8080
 4. 在8080端口运行服务
 5. 输入完后通过URL **localhost：8080 **访问
 
-[服务器安装教程](https://github.com/jasonbanjui/gentle-blog/OTHERREADME/SeverInstall.md)
+[服务器安装教程](https://github.com/jasonbanjui/tonight-blog/blob/master/OTHERREADME/SeverInstall.md)
 
 **如果有中间的疑问请话教育邮箱发送到794130574@qq.com**
 
