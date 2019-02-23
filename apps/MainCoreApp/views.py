@@ -90,7 +90,7 @@ class ArticleView(View):
                 except:
                     comment_all = False
                 article_tag = models.ArticleTag.objects.all()
-                comments = models.ArticleComment.objects.all()
+                comments = article.MainCoreApp_ArticleCommend_relateds.all()
                 adv = models.AddAdvertisement.objects.all()
                 left_adv = adv.filter(position='left')
                 right_adv = adv.filter(position='right')
