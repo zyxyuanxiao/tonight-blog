@@ -28,6 +28,7 @@ urlpatterns = [
         'document_root': STATIC_ROOT,
     }),
     path('ckeditor/', include('ckeditor_uploader.urls')),
+    path('ueditor/', include('DjangoUeditor.urls')),
     path('', include(('apps.MainCoreApp.urls', 'blog'), namespace='blog')),
 ]
 

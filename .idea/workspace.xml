@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213e4cf0-c0dd-4873-be84-39d216afa176" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/MainCoreApp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/MainCoreApp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/MainCoreApp/templates/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/MainCoreApp/templates/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/MainCoreApp/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/MainCoreApp/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/MainCoreApp/migrations/0005_auto_20190226_1947.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/MainCoreApp/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/MainCoreApp/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/MainCoreApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/MainCoreApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +65,33 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-709316199">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="120" />
+          <entry key="py@blog" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="12" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="120" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="blog">
@@ -72,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="382">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="e#628#674#0" expanded="true" />
               </folding>
@@ -82,22 +113,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="336">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+              <folding>
+                <element signature="e#305#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,13 +127,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="74" column="101" selection-start-line="74" selection-start-column="101" selection-end-line="74" selection-end-column="101" />
+            <state relative-caret-position="221">
+              <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1550829406778" expanded="true" signature="4169:4175" ph="..." />
-                <marker date="1550829406778" expanded="true" signature="8964:8965" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/templates/info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="222" lean-forward="true" selection-start-line="5" selection-start-column="222" selection-end-line="5" selection-end-column="222" />
             </state>
           </provider>
         </entry>
@@ -119,32 +148,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+            <state relative-caret-position="382">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/forms/boundfield.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2058">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="21">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
-                <marker date="1550829458488" expanded="true" signature="256:2522" ph="..." />
-                <marker date="1550829458488" expanded="true" signature="10773:11488" ph="..." />
-                <marker date="1550829458488" expanded="true" signature="10802:11488" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#47#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,15 +231,18 @@
         <option value="$PROJECT_DIR$/apps/MainCoreApp/templates/base.html" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/forms.py" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/static/css/base.css" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/settings.py" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/urls.py" />
-        <option value="$PROJECT_DIR$/apps/MainCoreApp/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/MainCoreApp/models.py" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/views.py" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/templates/index.html" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/templates/info.html" />
         <option value="$PROJECT_DIR$/apps/MainCoreApp/templates/list.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/MainCoreApp/models.py" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/settings.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" />
+        <option value="$PROJECT_DIR$/apps/MainCoreApp/adminx.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/forms/boundfield.py" />
       </list>
     </option>
   </component>
@@ -223,41 +264,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="MainCoreApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="MainCoreApp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonight-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonight-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,11 +325,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JasonBanjui\Desktop\current\tonight-blog\extra_apps" />
+      <recent name="C:\Users\JasonBanjui\Desktop\current\blog\apps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JasonBanjui\Desktop\current\blog\apps\MainCoreApp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JasonBanjui\Desktop\current\blog\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,13 +395,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09968017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10181237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.15618336" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3299458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32899022" />
@@ -367,13 +428,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="96" column="57" lean-forward="true" selection-start-line="4" selection-end-line="96" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/adminx.py" />
     <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -396,13 +451,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/migrations/0003_auto_20190220_1227.py" />
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1478">
-          <caret line="104" selection-start-line="104" selection-end-line="109" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/models.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/template/defaulttags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -417,69 +466,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/微信文件/WeChat Files/virus191/Files/个人博客模板《今夕何夕》全静态页面/个人博客模板《今夕何夕》全静态页面/个人博客模板《今夕何夕》/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="260" lean-forward="true" selection-start-line="32" selection-start-column="260" selection-end-line="32" selection-end-column="260" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-906">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/CommonComment/templates/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="104" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/CommonComment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/CommonComment/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/gentle-blog/apps/MainCoreApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="178" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/微信文件/WeChat Files/virus191/Files/个人博客模板《今夕何夕》全静态页面/个人博客模板《今夕何夕》全静态页面/个人博客模板《今夕何夕》/info.html" />
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/urls.py" />
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/index.html" />
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/info.html" />
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/templates/list.html" />
+    <entry file="file://H:/gentle-blog/apps/CommonComment/templates/comment.html" />
+    <entry file="file://H:/gentle-blog/apps/CommonComment/models.py" />
+    <entry file="file://H:/gentle-blog/apps/CommonComment/forms.py" />
+    <entry file="file://H:/gentle-blog/apps/MainCoreApp/views.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -487,13 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://H:/gentle-blog/apps/CommonComment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/gentle-blog/apps/CommonComment/views.py" />
     <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2920">
@@ -535,16 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="e#628#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -552,32 +531,6 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="74" column="101" selection-start-line="74" selection-start-column="101" selection-end-line="74" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1550829406778" expanded="true" signature="4169:4175" ph="..." />
-            <marker date="1550829406778" expanded="true" signature="8964:8965" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -602,23 +555,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/templates/info.html">
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="223" lean-forward="true" selection-start-line="5" selection-start-column="223" selection-end-line="5" selection-end-column="223" />
+        <state relative-caret-position="378">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#628#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <element signature="e#305#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2058">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="21">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
-            <marker date="1550829458488" expanded="true" signature="256:2522" ph="..." />
-            <marker date="1550829458488" expanded="true" signature="10773:11488" ph="..." />
-            <marker date="1550829458488" expanded="true" signature="10802:11488" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/templates/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="222" lean-forward="true" selection-start-line="5" selection-start-column="222" selection-end-line="5" selection-end-column="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/MainCoreApp/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/forms/boundfield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>

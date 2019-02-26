@@ -1,5 +1,6 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
+from DjangoUeditor.models import UEditorField
 
 
 class WebOwner(models.Model):
@@ -106,7 +107,9 @@ class ArticlesMake(models.Model):
     title = models.CharField(max_length=50, verbose_name=u"标题", null=False,
                              blank=False, default=u'暂无')
     introduction = models.TextField(max_length=300, verbose_name=u"简介", null=True, blank=True)
-    content = RichTextUploadingField(verbose_name=u"内容")
+    content = UEditorField(verbose_name=u'内容', width=800, height=500,
+                           toolbars="full", imagePath="article/images/", filePath="article/images/",
+                           command=None, blank=True)
     article_tags = models.ManyToManyField(ArticleTag, verbose_name=u"标签", null=True,
                                           blank=True, related_name='MainCoreApp_ArticlesMake_related')
     article_type = models.ForeignKey(ArticleType, on_delete=models.CASCADE, verbose_name=u"类型",

@@ -73,6 +73,7 @@ class ArticlesMakeAdmin(object):
     refresh_tiems = [3, 5]
     readonly_fields = ['id', 'article_brief_time', 'article_modify_time',
                        'article_make_time', 'like_num', 'read_num']
+    style_fields = {"content": "ueditor"}
 
 
 class FriendshipLinkAdmin(object):
